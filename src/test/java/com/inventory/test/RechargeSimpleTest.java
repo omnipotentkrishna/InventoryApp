@@ -18,7 +18,6 @@ public class RechargeSimpleTest {
 		// TODO Auto-generated method stub
 
 		String curPath = System.getProperty("user.dir");
-		System.out.println("Path :" + curPath);
 		System.setProperty("webdriver.chrome.driver",
 				System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 		System.out.println("Current dir :" + curPath);
