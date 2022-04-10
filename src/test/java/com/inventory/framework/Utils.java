@@ -3,12 +3,9 @@ package com.inventory.framework;
 import com.inventory.config.BaseWebDriver;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-
-import static org.apache.commons.lang3.RandomStringUtils.random;
 import static org.apache.commons.lang3.RandomStringUtils.randomNumeric;
 
 public class Utils extends BaseWebDriver{

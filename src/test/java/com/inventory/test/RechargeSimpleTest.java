@@ -7,15 +7,11 @@ import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.concurrent.TimeUnit;
 
 public class RechargeSimpleTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		String curPath = System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver",
@@ -26,7 +22,7 @@ public class RechargeSimpleTest {
 		chromeOptions.setPageLoadStrategy(PageLoadStrategy.EAGER);
 
 		WebDriver driver = new ChromeDriver();
-		WebDriverWait w = new WebDriverWait(driver, 60);
+		//WebDriverWait w = new WebDriverWait(driver, 60);
 		// Implicit wait
 		driver.manage().window().maximize();
 		driver.get("https://aspireapp.odoo.com");

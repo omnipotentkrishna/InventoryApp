@@ -99,6 +99,7 @@ public class InventoryPage {
     }
 
     public String createProduct(String qty) {
+        logger.info("createProduct() : creating Product");
         getCreateBtn().click();
         WaitUtils.waitWithGivenTime(60);
         //Enter name

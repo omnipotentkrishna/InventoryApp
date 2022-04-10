@@ -25,6 +25,7 @@ public class HomePage extends BaseWebDriver {
 
 
 	public InventoryPage navigateToInventoryPage(){
+		logger.info("navigateToInventoryPage() : navigating to Inventory page");
 		getInventoryMenu().click();
 		return new InventoryPage();
 	}
